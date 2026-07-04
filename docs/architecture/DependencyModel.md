@@ -16,6 +16,7 @@ Dependency direction and reference rules only. Layer definitions belong in [Laye
 4. **No cycles.** Dependency relationships must form a directed acyclic structure. Mutual "see also" navigation links are permitted; mutual *authority* is not.
 5. **Supporting content may reference anything; nothing depends on it.** Guidance, procedures, templates, and examples may cite any authoritative document, but no document may cite them as an authority.
 6. **Execution depends only on Contracts.** Execution artifacts conform to Contracts and, through them, to everything above. They are never a reference target for documentation.
+7. **Validation references are not dependencies.** Validation references used solely for conformance verification do not constitute architectural dependencies. A standard or gate may cite an artifact's owning schema or rule as the thing conformance is checked against, without that citation entering the allowed-dependencies table, which expresses authority dependencies only. *(Owner-approved amendment, recorded in the permanent changelog.)*
 
 ## Allowed dependencies by layer
 

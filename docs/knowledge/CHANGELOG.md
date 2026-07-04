@@ -2,6 +2,11 @@
 
 Permanent record of promoted state transitions. Entries are added only by Process, upon completion and approval of a sprint (Sprint 0.2 promotion rule).
 
+## Amendment 1 — Validation References Clarification (DependencyModel)
+- **Status:** Completed and approved
+- **Summary:** Rule 7 added to `docs/architecture/DependencyModel.md`: validation references used solely for conformance verification do not constitute architectural dependencies; the allowed-dependencies table expresses authority dependencies only. Resolves the finding surfaced during Sprint 1.5 validation (ValidationStandard's citation of runtime schemas as check-subjects). No allowed relationship, layer, or decision right changed — Architecture remains v1.0.
+- **Approved by:** repository owner, prior turn
+
 ## Sprint 1.5 — Standards Foundation
 - **Status:** Completed and approved
 - **Summary:** Standards layer populated: four reusable standards created in `docs/standards/` (StandardsModel, DocumentationStandard, ValidationStandard, VersionControlStandard) codifying the quality bar exercised at the Validation gate — document structure and naming, the canonical validation checklist, and change-set discipline. `docs/standards/INDEX.md` updated. Testing and security standards deferred until executable content exists (owner-ratified with the design). Existing corpus retro-validated against the new standards.
