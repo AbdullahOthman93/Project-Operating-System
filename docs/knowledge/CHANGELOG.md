@@ -2,6 +2,11 @@
 
 Permanent record of promoted state transitions. Entries are added only by Process, upon completion and approval of a sprint (Sprint 0.2 promotion rule).
 
+## Sprint 1.5 — Standards Foundation
+- **Status:** Completed and approved
+- **Summary:** Standards layer populated: four reusable standards created in `docs/standards/` (StandardsModel, DocumentationStandard, ValidationStandard, VersionControlStandard) codifying the quality bar exercised at the Validation gate — document structure and naming, the canonical validation checklist, and change-set discipline. `docs/standards/INDEX.md` updated. Testing and security standards deferred until executable content exists (owner-ratified with the design). Existing corpus retro-validated against the new standards.
+- **Approved by:** repository owner (implementation and closeout pre-authorized with the Sprint 1.5 design approval)
+
 ## Sprint 1.4 — State & Tracking Foundation
 - **Status:** Completed and approved
 - **Summary:** State & Tracking layer populated: three concept/schema documents created in `docs/runtime/` (StateModel, StateTransitionModel, TrackingArtifacts) defining the live/permanent record boundary, the canonical status vocabulary and allowed transitions for sprints and phases, the promotion entry schema, and the schemas and update rules of the live tracking artifacts. `docs/runtime/INDEX.md` updated to list them. No live state stored in the layer; dependencies point to Governance and Process only. Existing tracking artifacts retro-validated against the schemas and found conforming.
