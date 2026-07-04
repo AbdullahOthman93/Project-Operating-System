@@ -1,0 +1,11 @@
+# Editor / OS artifacts
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Logs and local env
+*.log
+.env
+
+# Stack-specific ignore patterns will be added once src/ is introduced.
