@@ -4,9 +4,12 @@
 
 **Scope:** Conceptual and schema documentation only. **Live, mutable runtime state must never be stored here** (Sprint 0.3, refinement 5).
 
-**Contents (to be populated in later sprints):**
-- State schema documentation
-- Promotion rules (state → `docs/knowledge/` changelog)
+**Contents (Sprint 1.4 — State & Tracking Foundation):**
+- `StateModel.md` — entry point; state concepts and the live/permanent boundary
+- `StateTransitionModel.md` — canonical status vocabulary, allowed transitions, promotion entry schema
+- `TrackingArtifacts.md` — schemas and update rules of the live tracking artifacts
+
+Start with `StateModel.md`.
 
 **Dependencies:** `docs/kernel/` — Process defines what states are valid.
 

@@ -15,4 +15,5 @@ Static sequence of phases and sprints. This document defines order and status; i
 | 1.1 | Repository Initialization | Completed |
 | 1.2 | Governance Foundation | Completed |
 | 1.3 | Process Kernel | Completed |
-| 1.4 | (to be defined) | Pending Definition |
+| 1.4 | State & Tracking Foundation | Completed |
+| 1.5 | (to be defined) | Pending Definition |
