@@ -13,4 +13,5 @@ Static sequence of phases and sprints. This document defines order and status; i
 | Sprint | Description | Status |
 |---|---|---|
 | 1.1 | Repository Initialization | Completed |
-| 1.2 | (to be defined) | Active |
+| 1.2 | Governance Foundation | Completed |
+| 1.3 | (to be defined) | Pending Definition |

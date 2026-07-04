@@ -4,10 +4,17 @@
 
 **Scope:** Technology-agnostic rules only. This directory must never reference a specific language, framework, vendor, or tool.
 
-**Contents (to be populated in later sprints):**
-- Principles
-- Approval gates
-- Decision rights
+**Contents (Sprint 1.2 — Governance Foundation):**
+- `ArchitectureOverview.md` — entry point; architecture summary, logical-to-physical mapping, reading order
+- `Vision.md` — the enduring end state the system exists to bring about
+- `Mission.md` — what the system delivers, its boundaries, and self-hosting
+- `DesignPrinciples.md` — the canonical principles (P1–P10)
+- `LayerModel.md` — logical layers, responsibilities, authority classes
+- `DependencyModel.md` — allowed dependency and reference rules between layers
+- `GovernanceModel.md` — decision rights, approval gates, conflict resolution, amendment
+- `Terminology.md` — canonical vocabulary
+
+Start with `ArchitectureOverview.md`.
 
 **Dependencies:** None. This is the top of the internal dependency order — nothing here depends on any other part of the repository.
 
