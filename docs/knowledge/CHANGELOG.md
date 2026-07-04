@@ -2,6 +2,11 @@
 
 Permanent record of promoted state transitions. Entries are added only by Process, upon completion and approval of a sprint (Sprint 0.2 promotion rule).
 
+## Sprint 1.7 — Execution Binding Alignment
+- **Status:** Completed and approved
+- **Summary:** Execution layer aligned to the Contracts layer: `CLAUDE.md` and `.claude/NOTES.md` rewritten as pure rule-6 bindings naming the Participant Contract as their single governing interface; `.github/NOTES.md` and `tools/NOTES.md` reworded to state the Execution Contract deferral truthfully via `ContractModel.md`. No new files, no new capability, no automation, no Execution Contract (per approved design). The Sprint 1.6 drift finding is resolved. Architecture v1.0 is now populated end-to-end with every dependency row exercised as designed.
+- **Approved by:** repository owner (implementation and closeout pre-authorized with the Sprint 1.7 design approval)
+
 ## Sprint 1.6 — Contracts Foundation
 - **Status:** Completed and approved
 - **Summary:** Contracts layer populated: `ContractModel.md` (what a contract is, how bindings relate to contracts, catalog) and `ParticipantContract.md` (checkable obligations of any participant, human or AI, generalized from the originally planned agent-specific contract by owner-approved evaluation) created in `docs/contracts/`; `docs/contracts/INDEX.md` updated. The Execution Contract deferred until a tool adapter or automation exists (owner-ratified). All six authoritative layers of Architecture v1.0 are now populated. Known drift: execution bindings (`CLAUDE.md`, `.claude/NOTES.md`) still name the superseded "Agent Interaction Contract" — dispositioned to Sprint 1.7 binding alignment.

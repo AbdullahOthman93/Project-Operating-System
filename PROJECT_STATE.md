@@ -5,5 +5,5 @@
 - **Architecture version:** v1.0 (approved, Phase 0)
 - **Repository baseline:** v0.1 (approved, Sprint 1.1)
 - **Current phase:** Phase 1 — Repository Setup
-- **Current sprint:** 1.7 (pending definition)
-- **Last completed sprint:** 1.6 — Contracts Foundation (approved)
+- **Current sprint:** none — Phase 1 closure decision pending (owner)
+- **Last completed sprint:** 1.7 — Execution Binding Alignment (approved)
