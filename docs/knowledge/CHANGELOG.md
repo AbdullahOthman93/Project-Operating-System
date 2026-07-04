@@ -2,6 +2,16 @@
 
 Permanent record of promoted state transitions. Entries are added only by Process, upon completion and approval of a sprint (Sprint 0.2 promotion rule).
 
+## Sprint 1.6 — Contracts Foundation
+- **Status:** Completed and approved
+- **Summary:** Contracts layer populated: `ContractModel.md` (what a contract is, how bindings relate to contracts, catalog) and `ParticipantContract.md` (checkable obligations of any participant, human or AI, generalized from the originally planned agent-specific contract by owner-approved evaluation) created in `docs/contracts/`; `docs/contracts/INDEX.md` updated. The Execution Contract deferred until a tool adapter or automation exists (owner-ratified). All six authoritative layers of Architecture v1.0 are now populated. Known drift: execution bindings (`CLAUDE.md`, `.claude/NOTES.md`) still name the superseded "Agent Interaction Contract" — dispositioned to Sprint 1.7 binding alignment.
+- **Approved by:** repository owner (implementation and closeout pre-authorized with the updated Sprint 1.6 design approval)
+
+## Amendment 2 — Participant Contract Naming (Terminology)
+- **Status:** Completed and approved
+- **Summary:** The *Agent* entry in `docs/architecture/Terminology.md` updated from "bound by the agent contract" to "bound by the participant contract", following the owner-approved generalization of the contract to all participants. Applied within the Sprint 1.6 change set. No layer, dependency rule, or decision right changed — Architecture remains v1.0.
+- **Approved by:** repository owner, prior turn
+
 ## Amendment 1 — Validation References Clarification (DependencyModel)
 - **Status:** Completed and approved
 - **Summary:** Rule 7 added to `docs/architecture/DependencyModel.md`: validation references used solely for conformance verification do not constitute architectural dependencies; the allowed-dependencies table expresses authority dependencies only. Resolves the finding surfaced during Sprint 1.5 validation (ValidationStandard's citation of runtime schemas as check-subjects). No allowed relationship, layer, or decision right changed — Architecture remains v1.0.

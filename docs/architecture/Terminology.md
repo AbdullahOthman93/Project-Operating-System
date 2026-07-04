@@ -10,7 +10,7 @@ Term definitions only. Where a concept has a fuller authoritative treatment else
 
 ## Terms
 
-**Agent** — an AI participant working under the system. Bound by the agent contract in the Contracts layer; guided (non-bindingly) by agent guidance material.
+**Agent** — an AI participant working under the system. Bound by the participant contract in the Contracts layer; guided (non-bindingly) by agent guidance material.
 
 **Approval gate** — an explicit checkpoint that work must pass before advancing. Gates are defined in [GovernanceModel.md](GovernanceModel.md).
 
