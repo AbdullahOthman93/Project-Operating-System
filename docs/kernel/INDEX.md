@@ -4,9 +4,13 @@
 
 **Scope:** Ordering, gating, and workflow selection only. This directory never defines what tool executes a step — that belongs in `tools/` and `docs/contracts/`.
 
-**Contents (to be populated in later sprints):**
-- Workflow definitions
-- Phase-gate criteria
+**Contents (Sprint 1.3 — Process Kernel):**
+- `ProcessModel.md` — entry point; what a workflow is, structure and catalog of this layer
+- `SprintLifecycle.md` — the canonical sprint workflow, definition through atomic closeout
+- `PhaseModel.md` — phase composition, entry and exit gating
+- `ChangeAndConflictWorkflow.md` — amendment and conflict-surfacing procedures
+
+Start with `ProcessModel.md`.
 
 **Dependencies:** `docs/architecture/` — Process operates within Governance's rules.
 

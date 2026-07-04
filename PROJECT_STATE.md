@@ -5,5 +5,5 @@
 - **Architecture version:** v1.0 (approved, Phase 0)
 - **Repository baseline:** v0.1 (approved, Sprint 1.1)
 - **Current phase:** Phase 1 — Repository Setup
-- **Current sprint:** 1.3 (pending definition approval)
-- **Last completed sprint:** 1.2 — Governance Foundation (approved)
+- **Current sprint:** 1.4 (pending definition)
+- **Last completed sprint:** 1.3 — Process Kernel (approved)
