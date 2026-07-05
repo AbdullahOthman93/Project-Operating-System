@@ -5,6 +5,6 @@
 - **Architecture version:** v1.0 (approved, Phase 0)
 - **Repository baseline:** v0.1 (approved, Sprint 1.1)
 - **Current phase:** Phase 2 — Operational Enablement (Open)
-- **Current sprint:** none active — next expected: 2.2 — Agent Guidance Foundation (Pending Definition)
-- **Last completed sprint:** 2.1 — Templates Foundation (approved)
+- **Current sprint:** none active — next expected: 2.3 — Operating Procedures Foundation (Pending Definition)
+- **Last completed sprint:** 2.2 — Agent Guidance Foundation (approved)
 - **Last closed phase:** Phase 1 — Repository Setup (closed and approved)

@@ -2,6 +2,11 @@
 
 Permanent record of promoted state transitions. Entries are added only by Process, upon completion and approval of a sprint (Sprint 0.2 promotion rule).
 
+## Sprint 2.2 — Agent Guidance Foundation
+- **Status:** Completed and approved
+- **Summary:** Agent Guidance supporting layer populated: two non-authoritative documents created in `docs/agents/` — `ClaudeAgentProfile.md` (profile of the AI agent that works in this repository through the `CLAUDE.md` binding) and `OperationalNotes.md` (navigation aid orienting an agent to the authoritative documents that govern the work). Both reach every obligation, gate, standard, and schema by reference to its owning document and restate none, preserving Single Source of Truth (P2); the formal agent interface remains exclusively in `docs/contracts/`. `docs/agents/INDEX.md` updated to list the two documents and to declare its reference-only sources across the Contracts, Process, Governance, Standards, and State & Tracking layers (Dependency Model rule 5, conformance references rule 7), with no document depending on the directory. No authority added to the supporting layer; no authoritative layer modified; no execution technology introduced. Second sprint of Phase 2 — Operational Enablement.
+- **Approved by:** repository owner (implementation and closeout pre-authorized with the Sprint 2.2 implementation authorization)
+
 ## Sprint 2.1 — Templates Foundation
 - **Status:** Completed and approved
 - **Summary:** Templates supporting layer populated: four non-authoritative document templates created in `docs/templates/` (`AuthoritativeDocumentTemplate.md`, `SprintDesignTemplate.md`, `ChangelogEntryTemplate.md`, `DirectoryIndexTemplate.md`), each a fill-in skeleton that references its owning document and defines nothing itself. `docs/templates/INDEX.md` updated to list them and to declare its reference-only sources across the Standards, Process, State & Tracking, and Governance layers (Dependency Model rule 5). Specification, ADR, and Standard templates deferred under Create on Need (P9), pending the first document of each type. No authority added to the supporting layer; no execution technology introduced. First sprint of Phase 2 — Operational Enablement.
