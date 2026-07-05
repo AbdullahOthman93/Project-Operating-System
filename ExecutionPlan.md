@@ -25,5 +25,5 @@ Static sequence of phases and sprints. This document defines order and status; i
 |---|---|---|
 | 2.1 | Templates Foundation | Completed |
 | 2.2 | Agent Guidance Foundation | Completed |
-| 2.3 | Operating Procedures Foundation | Pending Definition |
+| 2.3 | Operating Procedures Foundation | Completed |
 | 2.4 | Self-Hosting Worked Example & Onboarding | Pending Definition |
