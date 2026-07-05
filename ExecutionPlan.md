@@ -19,3 +19,11 @@ Static sequence of phases and sprints. This document defines order and status; i
 | 1.5 | Standards Foundation | Completed |
 | 1.6 | Contracts Foundation | Completed |
 | 1.7 | Execution Binding Alignment | Completed |
+
+## Phase 2 — Operational Enablement
+| Sprint | Description | Status |
+|---|---|---|
+| 2.1 | Templates Foundation | Completed |
+| 2.2 | Agent Guidance Foundation | Pending Definition |
+| 2.3 | Operating Procedures Foundation | Pending Definition |
+| 2.4 | Self-Hosting Worked Example & Onboarding | Pending Definition |

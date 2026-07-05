@@ -2,6 +2,11 @@
 
 Permanent record of promoted state transitions. Entries are added only by Process, upon completion and approval of a sprint (Sprint 0.2 promotion rule).
 
+## Sprint 2.1 — Templates Foundation
+- **Status:** Completed and approved
+- **Summary:** Templates supporting layer populated: four non-authoritative document templates created in `docs/templates/` (`AuthoritativeDocumentTemplate.md`, `SprintDesignTemplate.md`, `ChangelogEntryTemplate.md`, `DirectoryIndexTemplate.md`), each a fill-in skeleton that references its owning document and defines nothing itself. `docs/templates/INDEX.md` updated to list them and to declare its reference-only sources across the Standards, Process, State & Tracking, and Governance layers (Dependency Model rule 5). Specification, ADR, and Standard templates deferred under Create on Need (P9), pending the first document of each type. No authority added to the supporting layer; no execution technology introduced. First sprint of Phase 2 — Operational Enablement.
+- **Approved by:** repository owner (implementation and closeout pre-authorized with the Sprint 2.1 implementation authorization)
+
 ## Phase 1 — Repository Setup
 - **Status:** Closed and approved
 - **Summary:** Phase 1 objective achieved — the physical repository and all six authoritative layers of Architecture v1.0 populated across sprints 1.1–1.7: repository structure (1.1), Governance (`docs/architecture/`, 1.2), Process (`docs/kernel/`, 1.3), State & Tracking (`docs/runtime/`, 1.4), Knowledge — standards (`docs/standards/`, 1.5), Contracts (`docs/contracts/`, 1.6), and Execution bindings aligned to the Contracts layer (`CLAUDE.md`, `.claude/`, `.github/`, `tools/`, 1.7). Amendments 1 and 2 incorporated. Every Dependency Model row is exercised, Single Source of Truth is preserved, no drift or open defect remains, and no authority resides in the Execution layer. Phase status transitions Open → Closed; no phase is open following closure. Deferrals (Execution Contract; testing and security standards) remain owner-ratified and recorded in their owning layers.

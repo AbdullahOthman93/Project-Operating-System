@@ -4,7 +4,7 @@
 
 - **Architecture version:** v1.0 (approved, Phase 0)
 - **Repository baseline:** v0.1 (approved, Sprint 1.1)
-- **Current phase:** none — Phase 1 closed; no phase open
-- **Current sprint:** none
-- **Last completed sprint:** 1.7 — Execution Binding Alignment (approved)
+- **Current phase:** Phase 2 — Operational Enablement (Open)
+- **Current sprint:** none active — next expected: 2.2 — Agent Guidance Foundation (Pending Definition)
+- **Last completed sprint:** 2.1 — Templates Foundation (approved)
 - **Last closed phase:** Phase 1 — Repository Setup (closed and approved)
