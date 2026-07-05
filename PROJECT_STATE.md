@@ -5,6 +5,6 @@
 - **Architecture version:** v1.0 (approved, Phase 0)
 - **Repository baseline:** v0.1 (approved, Sprint 1.1)
 - **Current phase:** Phase 2 — Operational Enablement (Open)
-- **Current sprint:** none active — next expected: 2.4 — Self-Hosting Worked Example & Onboarding (Pending Definition)
-- **Last completed sprint:** 2.3 — Operating Procedures Foundation (approved)
+- **Current sprint:** none active — all Phase 2 sprints completed; Phase 2 exit gate pending (no Phase 3 approved, so no next sprint)
+- **Last completed sprint:** 2.4 — Self-Hosting Worked Example & Onboarding (approved)
 - **Last closed phase:** Phase 1 — Repository Setup (closed and approved)
