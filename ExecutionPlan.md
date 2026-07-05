@@ -9,7 +9,7 @@ Static sequence of phases and sprints. This document defines order and status; i
 | 0.2 | Architecture Refinement & Consolidation | Completed |
 | 0.3 | Repository Architecture | Completed |
 
-## Phase 1 — Repository Setup
+## Phase 1 — Repository Setup — Closed
 | Sprint | Description | Status |
 |---|---|---|
 | 1.1 | Repository Initialization | Completed |

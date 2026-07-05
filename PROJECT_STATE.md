@@ -4,6 +4,7 @@
 
 - **Architecture version:** v1.0 (approved, Phase 0)
 - **Repository baseline:** v0.1 (approved, Sprint 1.1)
-- **Current phase:** Phase 1 — Repository Setup
-- **Current sprint:** none — Phase 1 closure decision pending (owner)
+- **Current phase:** none — Phase 1 closed; no phase open
+- **Current sprint:** none
 - **Last completed sprint:** 1.7 — Execution Binding Alignment (approved)
+- **Last closed phase:** Phase 1 — Repository Setup (closed and approved)

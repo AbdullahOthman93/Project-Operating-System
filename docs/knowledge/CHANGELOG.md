@@ -2,6 +2,11 @@
 
 Permanent record of promoted state transitions. Entries are added only by Process, upon completion and approval of a sprint (Sprint 0.2 promotion rule).
 
+## Phase 1 — Repository Setup
+- **Status:** Closed and approved
+- **Summary:** Phase 1 objective achieved — the physical repository and all six authoritative layers of Architecture v1.0 populated across sprints 1.1–1.7: repository structure (1.1), Governance (`docs/architecture/`, 1.2), Process (`docs/kernel/`, 1.3), State & Tracking (`docs/runtime/`, 1.4), Knowledge — standards (`docs/standards/`, 1.5), Contracts (`docs/contracts/`, 1.6), and Execution bindings aligned to the Contracts layer (`CLAUDE.md`, `.claude/`, `.github/`, `tools/`, 1.7). Amendments 1 and 2 incorporated. Every Dependency Model row is exercised, Single Source of Truth is preserved, no drift or open defect remains, and no authority resides in the Execution layer. Phase status transitions Open → Closed; no phase is open following closure. Deferrals (Execution Contract; testing and security standards) remain owner-ratified and recorded in their owning layers.
+- **Approved by:** repository owner, following the accepted Phase 1 Gate Review (Architecture v1.0 Completion Assessment)
+
 ## Sprint 1.7 — Execution Binding Alignment
 - **Status:** Completed and approved
 - **Summary:** Execution layer aligned to the Contracts layer: `CLAUDE.md` and `.claude/NOTES.md` rewritten as pure rule-6 bindings naming the Participant Contract as their single governing interface; `.github/NOTES.md` and `tools/NOTES.md` reworded to state the Execution Contract deferral truthfully via `ContractModel.md`. No new files, no new capability, no automation, no Execution Contract (per approved design). The Sprint 1.6 drift finding is resolved. Architecture v1.0 is now populated end-to-end with every dependency row exercised as designed.
