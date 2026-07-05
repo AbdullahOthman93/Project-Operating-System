@@ -20,7 +20,7 @@ Static sequence of phases and sprints. This document defines order and status; i
 | 1.6 | Contracts Foundation | Completed |
 | 1.7 | Execution Binding Alignment | Completed |
 
-## Phase 2 — Operational Enablement
+## Phase 2 — Operational Enablement — Closed
 | Sprint | Description | Status |
 |---|---|---|
 | 2.1 | Templates Foundation | Completed |
