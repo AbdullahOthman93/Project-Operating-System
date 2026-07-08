@@ -25,6 +25,7 @@ A workflow may not weaken, extend, or reinterpret a governance rule. Where a wor
 | [SprintLifecycle.md](SprintLifecycle.md) | The lifecycle of a sprint, from definition through promotion |
 | [PhaseModel.md](PhaseModel.md) | How phases are composed of sprints, and phase entry/exit |
 | [ChangeAndConflictWorkflow.md](ChangeAndConflictWorkflow.md) | Amendment of authoritative documents; surfacing and resolving conflicts |
+| [ProjectAdoptionWorkflow.md](ProjectAdoptionWorkflow.md) | Project Adoption — the establishing transition that brings a project into a Project Governance Relationship |
 
 New workflows are added only on demonstrated need ([../architecture/DesignPrinciples.md](../architecture/DesignPrinciples.md), P9) and enter this catalog through the sprint lifecycle like any other work.
 

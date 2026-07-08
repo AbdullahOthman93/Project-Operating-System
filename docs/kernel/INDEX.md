@@ -9,6 +9,7 @@
 - `SprintLifecycle.md` — the canonical sprint workflow, definition through atomic closeout
 - `PhaseModel.md` — phase composition, entry and exit gating
 - `ChangeAndConflictWorkflow.md` — amendment and conflict-surfacing procedures
+- `ProjectAdoptionWorkflow.md` — the Project Adoption workflow: the establishing transition bringing a project into a Project Governance Relationship (added Sprint 3.2)
 
 Start with `ProcessModel.md`.
 
