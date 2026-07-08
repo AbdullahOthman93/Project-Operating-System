@@ -8,6 +8,7 @@
 - Specs — none yet
 - ADRs (including ADRs governing this repository's own architecture) — none yet
 - `CHANGELOG.md` — permanent record of promoted state transitions; first entry: Sprint 1.1 completion
+- `SelfHostingRelationshipReconciliation.md` — permanent reconciliation and validation report: this repository as the inaugural Project Governance Relationship (Sprint 3.4)
 
 Internal subdivision (e.g. separate `specs/`, `adrs/`, `changelog/` folders) will be introduced incrementally as content accumulates, rather than created ahead of need.
 

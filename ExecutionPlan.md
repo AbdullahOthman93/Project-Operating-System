@@ -34,4 +34,4 @@ Static sequence of phases and sprints. This document defines order and status; i
 | 3.1 | Project Governance Relationship Concept | Completed |
 | 3.2 | Project Adoption in the Process catalog | Completed |
 | 3.3 | Governed-Project State & Tracking | Completed |
-| 3.4 | Self-Hosting Relationship Reconciliation & Validation | Pending Definition |
+| 3.4 | Self-Hosting Relationship Reconciliation & Validation | Completed |
