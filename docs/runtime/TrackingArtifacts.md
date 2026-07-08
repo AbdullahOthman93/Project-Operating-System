@@ -15,11 +15,12 @@ A single document holding the current position of the project. Required content:
 1. A statement that the record is transient tracking, not a permanent record, pointing to the permanent changelog.
 2. **Architecture version** — the approved version in force.
 3. **Repository baseline** — the approved baseline being built upon.
-4. **Current phase** — the open phase.
-5. **Current sprint** — the sprint that is Active, or the next expected sprint marked as pending.
-6. **Last completed sprint** — number, name, and approval status.
+4. **Governed project and origin** — the Project Governance Relationship this record tracks, its origin baseline, and the origin baseline's conformance posture ([../architecture/ProjectGovernanceRelationship.md](../architecture/ProjectGovernanceRelationship.md)).
+5. **Current phase** — the open phase.
+6. **Current sprint** — the sprint that is Active, or the next expected sprint marked as pending.
+7. **Last completed sprint** — number, name, and approval status.
 
-The record is overwritten in place; it never accumulates history. It is updated only at kernel-prescribed points — Activation and Closeout ([../kernel/SprintLifecycle.md](../kernel/SprintLifecycle.md), stages 2 and 7) and phase transitions ([../kernel/PhaseModel.md](../kernel/PhaseModel.md)).
+The record is overwritten in place; it never accumulates history. It is updated only at kernel-prescribed points — Activation and Closeout ([../kernel/SprintLifecycle.md](../kernel/SprintLifecycle.md), stages 2 and 7), phase transitions ([../kernel/PhaseModel.md](../kernel/PhaseModel.md)), and the establishing transition of a governance relationship ([../kernel/ProjectAdoptionWorkflow.md](../kernel/ProjectAdoptionWorkflow.md)).
 
 ## The execution plan
 

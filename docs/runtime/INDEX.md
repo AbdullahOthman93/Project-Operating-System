@@ -9,6 +9,8 @@
 - `StateTransitionModel.md` — canonical status vocabulary, allowed transitions, promotion entry schema
 - `TrackingArtifacts.md` — schemas and update rules of the live tracking artifacts
 
+Extended in Sprint 3.3 to represent a governed project's origin baseline, establishing transition (Project Adoption), and conformance posture.
+
 Start with `StateModel.md`.
 
 **Dependencies:** `docs/kernel/` — Process defines what states are valid.

@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Defines the canonical status vocabulary for sprints and phases, the allowed transitions between statuses, and the schema of a promotion entry. This is the **only** place statuses and their transitions are defined.
+Defines the canonical status vocabulary for sprints, phases, and the establishing transition of a governance relationship, the allowed transitions between statuses, and the schema of a promotion entry. This is the **only** place statuses and their transitions are defined.
 
 ## Scope
 
@@ -27,11 +27,17 @@ Validity only — which statuses exist, which transitions are legal, and what a 
 
 **Allowed transition:** Open → Closed only. A phase is never reopened; further work under its objective requires a new owner-approved phase.
 
+## The establishing transition
+
+A project enters the system through the **establishing transition** — Project Adoption ([../kernel/ProjectAdoptionWorkflow.md](../kernel/ProjectAdoptionWorkflow.md)) — which is promoted into the permanent record like any transition, using the promotion entry schema below (its identifier names the relationship's establishment). A project's governance status is **Governed** from that promotion onward; before establishment the project is outside the system and untracked.
+
+**Allowed transition:** Ungoverned → Governed, occurring once at the promotion of the establishing transition; it is not reversed within this version. Relationship closure is not defined until added on demonstrated need ([../architecture/DesignPrinciples.md](../architecture/DesignPrinciples.md), P9). Per Create on Need, only this exercised transition is defined.
+
 ## Promotion entry schema
 
 Every promotion entry in the permanent changelog contains, in order:
 
-1. **Identifier** — the unit's number and approved name, as the entry heading (e.g., a sprint number and sprint name).
+1. **Identifier** — the unit's number and approved name, as the entry heading (e.g., a sprint number and sprint name, or a governance relationship's establishment).
 2. **Status** — completion statement including approval (e.g., "Completed and approved").
 3. **Summary** — what the unit delivered, in terms of artifacts and their layer.
 4. **Approved by** — the approving authority per [../architecture/GovernanceModel.md](../architecture/GovernanceModel.md), and where the approval was given.

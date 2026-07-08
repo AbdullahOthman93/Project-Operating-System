@@ -14,6 +14,15 @@ Concepts and schemas only. **Live, mutable state is never stored in this directo
 - **Permanent record** — the promoted, append-only account of completed transitions, held in the Knowledge layer's changelog. Once promoted, an entry changes only by owner-approved amendment ([../kernel/ChangeAndConflictWorkflow.md](../kernel/ChangeAndConflictWorkflow.md)).
 - **The boundary between them** — a transition leaves live state and enters the permanent record exactly once, at Promotion ([../architecture/GovernanceModel.md](../architecture/GovernanceModel.md)), executed through the closeout procedure of [../kernel/SprintLifecycle.md](../kernel/SprintLifecycle.md). Nothing is a permanent record until promoted; nothing promoted is tracked as live state afterwards.
 
+## The governed project and its origin
+
+State records track a **governed project** — a project standing in a Project Governance Relationship ([../architecture/ProjectGovernanceRelationship.md](../architecture/ProjectGovernanceRelationship.md)). State attaches to that relationship, not to code as such. Within this layer:
+
+- The relationship's permanent record **begins at its origin baseline** — the origin fixed by the establishing transition (Project Adoption). Nothing before the origin baseline is tracked as a governed transition; governance is prospective.
+- The origin baseline carries a **conformance posture** — the degree to which its contents satisfy the standards governing future work — recorded, never concealed, and any shortfall is discharged by subsequent promoted transitions.
+
+These concepts are defined in full in [../architecture/ProjectGovernanceRelationship.md](../architecture/ProjectGovernanceRelationship.md); this layer defines only their representation in state and carries no live values.
+
 ## Layer catalog
 
 | Document | Schema owned |
