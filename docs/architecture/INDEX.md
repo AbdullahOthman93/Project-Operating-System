@@ -13,6 +13,7 @@
 - `DependencyModel.md` — allowed dependency and reference rules between layers
 - `GovernanceModel.md` — decision rights, approval gates, conflict resolution, amendment
 - `Terminology.md` — canonical vocabulary
+- `ProjectGovernanceRelationship.md` — the Project Governance Relationship concept: the governed project, Project Adoption as its establishing transition, the origin baseline, and greenfield/brownfield origin conditions (added Sprint 3.1)
 
 Start with `ArchitectureOverview.md`.
 

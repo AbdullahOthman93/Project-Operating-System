@@ -15,6 +15,7 @@ The Project Operating System is organized as a set of **layers** with strictly o
 - The layers, their responsibilities, and their authority classes are defined in [LayerModel.md](LayerModel.md).
 - The allowed dependency and reference relationships between them are defined in [DependencyModel.md](DependencyModel.md).
 - Decision rights, approval gates, and change control are defined in [GovernanceModel.md](GovernanceModel.md).
+- The concept of a governed project — the Project Governance Relationship and how a project is brought under governance — is defined in [ProjectGovernanceRelationship.md](ProjectGovernanceRelationship.md).
 - The rules of judgement behind all of this are defined in [DesignPrinciples.md](DesignPrinciples.md).
 - The canonical vocabulary is defined in [Terminology.md](Terminology.md).
 - Direction and purpose are defined in [Vision.md](Vision.md) and [Mission.md](Mission.md).
@@ -43,7 +44,8 @@ Each `docs/` directory carries an `INDEX.md` describing its own purpose, scope, 
 2. [DesignPrinciples.md](DesignPrinciples.md) — the rules of judgement.
 3. [LayerModel.md](LayerModel.md) and [DependencyModel.md](DependencyModel.md) — the structure.
 4. [GovernanceModel.md](GovernanceModel.md) — how decisions and changes are made.
-5. [Terminology.md](Terminology.md) — consult as needed throughout.
+5. [ProjectGovernanceRelationship.md](ProjectGovernanceRelationship.md) — what it means for a project to be governed.
+6. [Terminology.md](Terminology.md) — consult as needed throughout.
 
 ## Responsibilities
 

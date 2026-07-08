@@ -26,7 +26,13 @@ Term definitions only. Where a concept has a fuller authoritative treatment else
 
 **Governance document** — one of the authoritative documents in the Governance layer (this directory).
 
+**Governed project** — a project standing in a Project Governance Relationship with the framework; defined in [ProjectGovernanceRelationship.md](ProjectGovernanceRelationship.md).
+
 **Layer** — a logical unit of the architecture with a single bounded responsibility and an authority class; defined in [LayerModel.md](LayerModel.md).
+
+**Origin baseline** — the baseline fixed at the establishing transition of a Project Governance Relationship, accepted as the trusted origin of the project's permanent record; defined in [ProjectGovernanceRelationship.md](ProjectGovernanceRelationship.md).
+
+**Origin condition** — the condition of a project at adoption — *greenfield* (empty or minimal origin) or *brownfield* (pre-existing content) — two values of one concept; defined in [ProjectGovernanceRelationship.md](ProjectGovernanceRelationship.md).
 
 **Owner** — the holder of final approval authority for a project; defined in [GovernanceModel.md](GovernanceModel.md).
 
@@ -37,6 +43,10 @@ Term definitions only. Where a concept has a fuller authoritative treatment else
 **Principle** — a named, durable rule of judgement; the canonical set lives in [DesignPrinciples.md](DesignPrinciples.md) and principles are cited by their identifiers (P1–P10).
 
 **Process** — the Process layer: workflows and phase gates ([LayerModel.md](LayerModel.md)).
+
+**Project Adoption** — the establishing transition that brings a project into a Project Governance Relationship and fixes its origin baseline; the concept is defined in [ProjectGovernanceRelationship.md](ProjectGovernanceRelationship.md), and any procedure that carries it out is owned by the Process layer.
+
+**Project Governance Relationship** — the long-lived relationship under which a project is governed (owner, bound architecture, origin baseline, forward gating); the framework's fundamental concept, defined in [ProjectGovernanceRelationship.md](ProjectGovernanceRelationship.md).
 
 **Promotion** — the act of recording an approved state transition in the permanent record; part of the gate sequence in [GovernanceModel.md](GovernanceModel.md).
 

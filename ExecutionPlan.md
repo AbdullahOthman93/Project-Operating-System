@@ -27,3 +27,11 @@ Static sequence of phases and sprints. This document defines order and status; i
 | 2.2 | Agent Guidance Foundation | Completed |
 | 2.3 | Operating Procedures Foundation | Completed |
 | 2.4 | Self-Hosting Worked Example & Onboarding | Completed |
+
+## Phase 3 — Governed Project Enablement — Open
+| Sprint | Description | Status |
+|---|---|---|
+| 3.1 | Project Governance Relationship Concept | Completed |
+| 3.2 | Project Adoption in the Process catalog | Pending Definition |
+| 3.3 | Governed-Project State & Tracking | Pending Definition |
+| 3.4 | Self-Hosting Relationship Reconciliation & Validation | Pending Definition |

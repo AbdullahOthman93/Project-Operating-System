@@ -30,7 +30,9 @@ The Project Operating System:
 
 ## Self-hosting
 
-This repository is itself the first project governed by the framework it defines. Every rule established here applies to the development of this repository, as it happens.
+This repository is itself a project governed by the framework it defines — the **inaugural** [Project Governance Relationship](ProjectGovernanceRelationship.md), formed at the framework's genesis under a greenfield origin condition. Every rule established here applies to the development of this repository, as it happens.
+
+The framework is not confined to this repository. It governs a software project by establishing a Project Governance Relationship with it; self-hosting is the first such relationship, not the limit of the framework's applicability ([ProjectGovernanceRelationship.md](ProjectGovernanceRelationship.md)).
 
 ## Responsibilities
 
@@ -42,4 +44,5 @@ This repository is itself the first project governed by the framework it defines
 - Derives its direction from [Vision.md](Vision.md).
 - The framework components named above are structured by [LayerModel.md](LayerModel.md) and related by [DependencyModel.md](DependencyModel.md).
 - [DesignPrinciples.md](DesignPrinciples.md) governs how this Mission is pursued.
+- The concept of a governed project and the relationship by which the framework governs one are defined in [ProjectGovernanceRelationship.md](ProjectGovernanceRelationship.md).
 - Terms used here are defined in [Terminology.md](Terminology.md).
