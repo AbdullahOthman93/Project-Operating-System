@@ -28,7 +28,7 @@ Static sequence of phases and sprints. This document defines order and status; i
 | 2.3 | Operating Procedures Foundation | Completed |
 | 2.4 | Self-Hosting Worked Example & Onboarding | Completed |
 
-## Phase 3 — Governed Project Enablement — Open
+## Phase 3 — Governed Project Enablement — Closed
 | Sprint | Description | Status |
 |---|---|---|
 | 3.1 | Project Governance Relationship Concept | Completed |
