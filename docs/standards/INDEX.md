@@ -8,7 +8,7 @@
 - `StandardsModel.md` — entry point; what a standard is, catalog, deferred categories
 - `DocumentationStandard.md` — structure, naming, and conventions of authoritative documents
 - `ValidationStandard.md` — the canonical Validation-gate checklist
-- `VersionControlStandard.md` — change-set discipline and history integrity
+- `VersionControlStandard.md` — change-set discipline, completion publication, and history integrity
 
 Testing and security standards are deferred until executable content exists (owner-ratified, Sprint 1.5); see `StandardsModel.md`.
 

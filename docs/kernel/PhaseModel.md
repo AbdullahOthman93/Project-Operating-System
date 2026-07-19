@@ -27,7 +27,7 @@ A phase closes when:
 
 1. every sprint in the phase has completed closeout, and no sprint remains pending definition within the phase's approved objective;
 2. the owner approves phase closure (Approval gate); and
-3. the phase transition is promoted into the permanent changelog (Promotion), and the execution plan and live state record are updated — following the same atomic closeout discipline as [SprintLifecycle.md](SprintLifecycle.md), stage 7.
+3. the phase transition is promoted into the permanent changelog (Promotion), and the execution plan and live state record are updated — following the same atomic closeout discipline as [SprintLifecycle.md](SprintLifecycle.md), stage 7, **including publication of the phase-closure change set to the official repository and verification of that publication**. No subsequent phase begins until that publication is verified; a failed or unverifiable publication stops execution and is surfaced to the owner, exactly as at sprint closeout.
 
 A phase is never closed implicitly by starting the next one.
 

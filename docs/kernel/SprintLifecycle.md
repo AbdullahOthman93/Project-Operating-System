@@ -30,9 +30,9 @@ A phase is open (see [PhaseModel.md](PhaseModel.md)) and the previous sprint, if
    1. The **execution plan** is updated: the sprint is marked completed and the next sprint's row is added.
    2. The **live state record** is updated to reflect the completed sprint and point at the next.
    3. The promotion entry is added to the **permanent changelog** (Promotion, [../architecture/GovernanceModel.md](../architecture/GovernanceModel.md)).
-   4. The sprint's work and its closeout records are captured as a **single dedicated change set** in version control, containing that sprint's work only.
+   4. The sprint's work and its closeout records are captured as a **single dedicated change set** in version control, containing that sprint's work only, which is then **published to the official repository and its publication verified**. Closeout is complete only once publication is verified.
 
-   If closeout is interrupted, completing it takes precedence over all new work; the interruption is surfaced to the owner as a state defect.
+   If closeout is interrupted — including a change set that cannot be published, or whose publication cannot be verified — completing it takes precedence over all new work: execution stops, no subsequent phase, sprint, or unit of work begins, and the interruption is surfaced to the owner as a state defect ([ChangeAndConflictWorkflow.md](ChangeAndConflictWorkflow.md)). Progression resumes only once publication is verified or the owner directs otherwise.
 
 ## In this repository
 

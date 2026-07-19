@@ -22,7 +22,7 @@ A **standard** is a reusable, checkable quality requirement:
 |---|---|
 | [DocumentationStandard.md](DocumentationStandard.md) | Structure, naming, and conventions of authoritative documents |
 | [ValidationStandard.md](ValidationStandard.md) | The canonical Validation-gate checklist |
-| [VersionControlStandard.md](VersionControlStandard.md) | Change-set discipline and history integrity |
+| [VersionControlStandard.md](VersionControlStandard.md) | Change-set discipline, completion publication, and history integrity |
 
 ## Deferred categories
 

@@ -34,7 +34,7 @@ The closeout sequence and its all-or-nothing character are defined in [../kernel
 - `ExecutionPlan.md` — mark the sprint completed (add the next sprint's row if it is not already present).
 - `PROJECT_STATE.md` — reflect the completed sprint and point at the next.
 - `docs/knowledge/CHANGELOG.md` — add the promotion entry (schema owned by [../runtime/StateModel.md](../runtime/StateModel.md) and its catalog; skeleton at [../templates/ChangelogEntryTemplate.md](../templates/ChangelogEntryTemplate.md)).
-- Version control — capture the sprint's work and its closeout records as one dedicated change set, per [../standards/VersionControlStandard.md](../standards/VersionControlStandard.md).
+- Version control — capture the sprint's work and its closeout records as one dedicated change set, then **publish it to the official repository and verify the push**, per [../standards/VersionControlStandard.md](../standards/VersionControlStandard.md). In this repository this is the **Git Completion Rule**: review status, stage all changes, create a Conventional Commit, commit, `git push` to `origin`, and confirm the push succeeded before the next unit of work begins; if the push fails, stop and surface it to the owner.
 
 If closeout is interrupted, completing it takes precedence over any new work and the interruption is surfaced as a state defect — as required by `SprintLifecycle.md`.
 
