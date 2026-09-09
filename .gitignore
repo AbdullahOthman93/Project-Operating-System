@@ -8,4 +8,7 @@ Thumbs.db
 *.log
 .env
 
+# Claude Code machine-local execution settings (never promoted history)
+.claude/settings.local.json
+
 # Stack-specific ignore patterns will be added once src/ is introduced.

@@ -14,6 +14,7 @@
 - `GovernanceModel.md` — decision rights, approval gates, conflict resolution, amendment
 - `Terminology.md` — canonical vocabulary
 - `ProjectGovernanceRelationship.md` — the Project Governance Relationship concept: the governed project, Project Adoption as its establishing transition, the origin baseline, and greenfield/brownfield origin conditions (added Sprint 3.1)
+- `AIGovernanceExtension.md` — the governance boundaries specific to AI participation: capability-is-not-authority, the AI human-approval boundary, and AI safety and trust boundaries; applies the existing decision rights, gates, and principles to the AI case and defines no new gate or decision right (added under DAI-02 — Claude Code Integration Artifacts)
 
 Start with `ArchitectureOverview.md`.
 

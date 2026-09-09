@@ -24,6 +24,7 @@ A **standard** is a reusable, checkable quality requirement:
 | [ValidationStandard.md](ValidationStandard.md) | The canonical Validation-gate checklist |
 | [VersionControlStandard.md](VersionControlStandard.md) | Change-set discipline, completion publication, and history integrity |
 | [WorkEconomyStandard.md](WorkEconomyStandard.md) | The economy-of-effort quality bar — reading footprint, re-derivation, review and verification breadth, and report length |
+| [AIEngineeringStandard.md](AIEngineeringStandard.md) | The checkable engineering method for AI-assisted work — task classification, context, model and effort routing, sessions, planning, parallelization, verification, and evidence |
 
 ## Deferred categories
 

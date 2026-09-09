@@ -9,6 +9,7 @@
 - ADRs (including ADRs governing this repository's own architecture) — none yet
 - `CHANGELOG.md` — permanent record of promoted state transitions; first entry: Sprint 1.1 completion
 - `SelfHostingRelationshipReconciliation.md` — permanent reconciliation and validation report: this repository as the inaugural Project Governance Relationship (Sprint 3.4)
+- `ClaudeCodeIntegrationDesign.md` — project-specific integration design record for applying the Claude Code adapter to this repository under the AI Governance Extension and AI Engineering Standard; defines no rule and authorizes no implementation (added under DAI-02 — Claude Code Integration Artifacts)
 
 Internal subdivision (e.g. separate `specs/`, `adrs/`, `changelog/` folders) will be introduced incrementally as content accumulates, rather than created ahead of need.
 

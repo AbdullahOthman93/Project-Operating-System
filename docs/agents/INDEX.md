@@ -7,6 +7,7 @@
 **Contents:**
 - `ClaudeAgentProfile.md` — profile of the AI agent that works in this repository through the `CLAUDE.md` binding; points to its obligations and process, restating none.
 - `OperationalNotes.md` — non-authoritative navigation aid orienting an agent to the authoritative documents that govern the work.
+- `ClaudeCodeOperatingNotes.md` — non-authoritative Claude Code adapter guidance: practical tool usage (`CLAUDE.md`, Rules, Skills, Subagents, MCP, Hooks, Permissions, routing, context, sessions, verification) implementing the AI Engineering Standard; references the authoritative owners and restates none (added under DAI-02 — Claude Code Integration Artifacts).
 
 **Dependencies:** None as an authority. As a Supporting directory, its documents *reference* the authoritative layers for guidance — reference only, per the Dependency Model (rule 5), and conformance references per rule 7: `docs/contracts/` (source of truth for the agent interface), `docs/kernel/`, `docs/architecture/`, `docs/standards/`, and `docs/runtime/`. It also references `docs/templates/` scaffolding. No document depends on this directory.
 

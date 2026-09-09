@@ -10,6 +10,7 @@
 - `ValidationStandard.md` — the canonical Validation-gate checklist
 - `VersionControlStandard.md` — change-set discipline, completion publication, and history integrity
 - `WorkEconomyStandard.md` — the economy-of-effort quality bar (Amendment 4 — Token Efficiency Rule)
+- `AIEngineeringStandard.md` — the checkable AI engineering method: task classification, context, model and effort routing, sessions, planning, parallelization, verification, and evidence (added under DAI-02 — Claude Code Integration Artifacts)
 
 Testing and security standards are deferred until executable content exists (owner-ratified, Sprint 1.5); see `StandardsModel.md`.
 
