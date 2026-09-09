@@ -10,6 +10,7 @@
 - `CHANGELOG.md` — permanent record of promoted state transitions; first entry: Sprint 1.1 completion
 - `SelfHostingRelationshipReconciliation.md` — permanent reconciliation and validation report: this repository as the inaugural Project Governance Relationship (Sprint 3.4)
 - `ClaudeCodeIntegrationDesign.md` — project-specific integration design record for applying the Claude Code adapter to this repository under the AI Governance Extension and AI Engineering Standard; defines no rule and authorizes no implementation (added under DAI-02 — Claude Code Integration Artifacts)
+- `PilotEvidenceConsolidation.md` — Stage 5.5 dual-pilot evidence consolidation and assessment (FMFSLA and School ERP); owner-approved, READY FOR STAGE 6 WITH CONDITIONS; defines no rule and references originating-project evidence rather than duplicating it
 
 Internal subdivision (e.g. separate `specs/`, `adrs/`, `changelog/` folders) will be introduced incrementally as content accumulates, rather than created ahead of need.
 
