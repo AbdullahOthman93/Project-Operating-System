@@ -8,6 +8,7 @@
 - `StateModel.md` — entry point; state concepts and the live/permanent boundary
 - `StateTransitionModel.md` — canonical status vocabulary, allowed transitions, promotion entry schema
 - `TrackingArtifacts.md` — schemas and update rules of the live tracking artifacts
+- `measurements/` — the Measurement Record template/schema and runtime-oriented measurement-capture guidance ([measurements/INDEX.md](measurements/INDEX.md)); it holds the schema only. Completed/preserved Measurement Records are historical project evidence and belong in `docs/knowledge/`, not here.
 
 Extended in Sprint 3.3 to represent a governed project's origin baseline, establishing transition (Project Adoption), and conformance posture.
 
